@@ -5,35 +5,35 @@
   <div class="form">
     <div class="form-row">
       <label>Normal Input:</label>
-      <input class="normal-input" type="email"
+      <input #input class="normal-input" type="email"
              name="email" placeholder="E-mail" autocomplete="off">
     </div>
 
     <div class="form-row">
       <label>Email:</label>
       <au-fa-input icon="bath">
-        <input type="email" formControl="" name="email" placeholder="Email">
+        <input #input type="email" formControl="" name="email" placeholder="Email">
       </au-fa-input>
     </div>
 
     <div class="form-row">
       <label>Password:</label>
       <au-fa-input id="password-field" icon="lock" >
-        <input placeholder="Password">
+        <input #input placeholder="Password">
       </au-fa-input>
     </div>
 
     <div class="form-row stripe-field">
       <label>Stripe:</label>
       <au-fa-input  icon="cc-stripe">
-        <input placeholder="Stripe">
+        <input #input placeholder="Stripe">
       </au-fa-input>
     </div>
 
     <div class="form-row">
       <label>Paypal:</label>
       <au-fa-input icon="paypal">
-        <input placeholder="Paypal">
+        <input #input placeholder="Paypal">
       </au-fa-input>
     </div>
 
